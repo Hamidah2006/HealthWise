@@ -15,12 +15,8 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // Connect to DB
-connectDB();
 
-mongoose.connect(process.env.MONGODB_URI, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
+connectDB();
 
 
 // Routes

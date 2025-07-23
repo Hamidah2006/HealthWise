@@ -3,7 +3,7 @@ import {
   createAppointment,
   getAppointments,
   deleteAppointment,
-} from '../controllers/appointmentController.js';
+} from '../controllers/appointmentControllers.js';
 import { protect } from '../middleware/authMiddleware.js';
 
 const router = express.Router();
