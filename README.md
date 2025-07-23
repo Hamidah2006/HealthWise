@@ -127,7 +127,4 @@ Olaniyi Hamidah Olaitan
 
 This project is licensed under the MIT License.
 
----
-
-Let me know if you’d like a version of this `README.md` with GitHub Pages/Netlify deployment steps or a downloadable version.
 
