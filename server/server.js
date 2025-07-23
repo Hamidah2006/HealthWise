@@ -17,6 +17,12 @@ app.use(express.urlencoded({ extended: true }));
 // Connect to DB
 connectDB();
 
+mongoose.connect(process.env.MONGODB_URI, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
+
+
 // Routes
 app.use('/api/appointments', appointmentRoutes);
 app.use('/api/admin', adminRoutes);
